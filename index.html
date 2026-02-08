@@ -1,155 +1,94 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AJIWAILABO | Japanese Gourmet Foods</title>
-  <meta name="description" content="AJIWAILABO offers carefully selected Japanese gourmet foods for global customers." />
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      color: #222;
-      background: #fff;
-    }
-    header {
-      background: #111;
-      color: #fff;
-      padding: 1.5rem;
-      text-align: center;
-    }
-    header img {
-      max-width: 180px;
-      margin-bottom: 0.5rem;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 1rem;
-      text-decoration: none;
-      font-size: 0.95rem;
-    }
-    .hero {
-      text-align: center;
-      padding: 3rem 1rem;
-    }
-    .hero img {
-      max-width: 900px;
-      width: 90%;
-    }
-    .hero h1 {
-      margin-top: 1.5rem;
-      font-size: 2rem;
-    }
-    .hero p {
-      max-width: 600px;
-      margin: 1rem auto;
-      font-size: 1.05rem;
-      line-height: 1.6;
-    }
-    .section-title {
-      text-align: center;
-      margin: 3rem 0 1.5rem;
-      font-size: 1.6rem;
-    }
-    .products {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 2rem;
-      padding: 0 1rem 3rem;
-    }
-    .product {
-      width: 260px;
-      text-align: center;
-    }
-    .product img {
-      width: 100%;
-      height: auto;
-    }
-    .product h3 {
-      margin: 0.8rem 0 0.4rem;
-    }
-    .product p {
-      font-size: 0.9rem;
-      line-height: 1.5;
-    }
-    .product a {
-      display: inline-block;
-      margin-top: 0.5rem;
-      color: #0066cc;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    footer {
-      background: #111;
-      color: #ccc;
-      text-align: center;
-      padding: 1.5rem 1rem;
-      font-size: 0.85rem;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AJIWAILABO | Japanese Gourmet Foods</title>
+<meta name="description" content="AJIWAILABO introduces a wide range of Japanese gourmet foods to the world.">
+<style>
+body{margin:0;font-family:Arial,sans-serif;color:#222}
+header{background:#111;color:#fff;text-align:center;padding:2rem}
+section{padding:4rem 1rem;max-width:1100px;margin:auto}
+.hero{text-align:center}
+.hero img{width:100%;max-width:900px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem}
+.product img{width:100%}
+h2{text-align:center;margin-bottom:2rem}
+footer{background:#111;color:#ccc;text-align:center;padding:2rem;font-size:.9rem}
+</style>
 </head>
-
 <body>
 
 <header>
-  <img src="images/logo.png" alt="AJIWAILABO Logo">
-  <nav>
-    <a href="#products">Products</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<img src="images/logo.png" width="200">
+<p>Japanese Gourmet Foods for Global Taste</p>
 </header>
 
 <section class="hero">
-  <img src="images/hero.jpg" alt="Japanese gourmet foods by AJIWAILABO">
-  <h1>Discover the Taste of Japan</h1>
-  <p>
-    AJIWAILABO delivers carefully selected Japanese gourmet foods to the world.
-    We focus on quality, authenticity, and unforgettable taste experiences.
-  </p>
+<img src="images/hero.jpg">
+<h1>Discover the Depth of Japanese Flavor</h1>
+<p>
+AJIWAILABO curates and develops Japanese food products that highlight tradition,
+craftsmanship, and refined taste. From everyday seasonings to premium selections,
+we bring authentic Japanese flavor experiences to the world.
+</p>
 </section>
 
-<h2 id="products" class="section-title">Our Products</h2>
+<section>
+<h2>Our Product Lineup</h2>
+<div class="grid">
 
-<section class="products">
+<div class="product">
+<img src="images/product1.jpg">
+<h3>Traditional Seasonings</h3>
+<p>Soy-based sauces and seasonings crafted using time-honored Japanese techniques.</p>
+</div>
 
-  <div class="product">
-    <img src="images/product1.jpg" alt="Japanese Food Product 1">
-    <h3>Signature Product</h3>
-    <p>
-      A carefully crafted Japanese food product, designed to bring authentic
-      flavor to your table.
-    </p>
-    <a href="https://www.amazon.co.jp/dp/B0DCGQNG3D" target="_blank">
-      View on Amazon
-    </a>
-  </div>
+<div class="product">
+<img src="images/product2.jpg">
+<h3>Premium Snacks</h3>
+<p>Carefully balanced flavors combining umami, texture, and aroma.</p>
+</div>
 
-  <div class="product">
-    <img src="images/product2.jpg" alt="Japanese Food Product 2">
-    <h3>Premium Selection</h3>
-    <p>
-      Selected ingredients and traditional techniques combined for modern taste.
-    </p>
-    <a href="#">View Details</a>
-  </div>
+<div class="product">
+<img src="images/product3.jpg">
+<h3>Regional Specialties</h3>
+<p>Unique food items inspired by regional Japanese culinary culture.</p>
+</div>
 
-  <div class="product">
-    <img src="images/product3.jpg" alt="Japanese Food Product 3">
-    <h3>Limited Item</h3>
-    <p>
-      A special product available in limited quantities, crafted with care.
-    </p>
-    <a href="#">View Details</a>
-  </div>
+<div class="product">
+<img src="images/product4.jpg">
+<h3>Healthy Foods</h3>
+<p>Products focused on natural ingredients and everyday wellness.</p>
+</div>
 
+<div class="product">
+<img src="images/product5.jpg">
+<h3>Limited Creations</h3>
+<p>Seasonal or experimental items produced in limited quantities.</p>
+</div>
+
+<div class="product">
+<img src="images/product6.jpg">
+<h3>Everyday Japanese Taste</h3>
+<p>Simple, delicious foods designed for daily enjoyment.</p>
+</div>
+
+</div>
 </section>
 
-<footer id="contact">
-  <p>© 2026 AJIWAILABO. All rights reserved.</p>
-  <p>Contact: info@ajiwailabo.com</p>
+<section>
+<h2>Our Philosophy</h2>
+<p>
+At AJIWAILABO, we believe that great taste comes from balance, simplicity,
+and respect for ingredients. We work closely with producers and continuously
+explore new ways to express Japanese flavor for a global audience.
+</p>
+</section>
+
+<footer>
+<p>© 2026 AJIWAILABO. All rights reserved.</p>
+<p>Contact: info@ajiwailabo.com</p>
 </footer>
 
 </body>
